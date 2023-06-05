@@ -1,9 +1,7 @@
-import React from 'react'
-
-const index = () => {
-  return (
-    <div>index</div>
-  )
-}
-
-export default index
+const laCajaDePandora = (num) => {
+   if (num % 2 == 0) {
+      return num.toString(2);
+   } else {
+      return num.toString(16);
+   }
+};
